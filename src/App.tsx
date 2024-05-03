@@ -66,7 +66,7 @@ function App() {
   return (
     <div
       style={{
-        maxWidth: "700px",
+        maxWidth: "720px",
         display: "flex",
         flexDirection: "column",
         gap: "2rem",

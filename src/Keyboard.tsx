@@ -1,5 +1,4 @@
-import styles from "./Keyboard.module.css"
-
+import "./keyboard.css"
 const KEYS = [
   "ա",
   "բ",
@@ -69,8 +68,8 @@ export function Keyboard({
         return (
           <button
             onClick={() => addGuessedLetter(key)}
-            className={`${styles.btn} ${isActive ? styles.active : ""} ${
-              isInactive ? styles.inactive : ""
+            className={`${'btn'} ${isActive ? 'active' : ""} ${
+              isInactive ? 'inactive' : ""
             }`}
             disabled={isInactive || isActive || disabled}
             key={key}
