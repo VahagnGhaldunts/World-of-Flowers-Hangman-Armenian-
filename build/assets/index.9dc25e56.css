@@ -1,0 +1,1 @@
+.btn{width:100%;border:3px solid #116d70;background:none;aspect-ratio:1 / 1;font-size:2rem;text-transform:uppercase;padding:.3rem;font-weight:700;cursor:pointer;color:#000}.btn.active{background-color:#22d1cc;color:#fff}.btn.inactive{opacity:.3}.btn:hover:not(:disabled),.btn:focus:not(:disabled){background-color:#00fff8}
